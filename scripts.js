@@ -1,7 +1,9 @@
+// Importing data from data.js
 import { books, authors, genres, BOOKS_PER_PAGE } from './data.js'
 
+// Initializing variables
 let page = 1;
-let matches = books
+let matches = books;
 
 const starting = document.createDocumentFragment()
 
